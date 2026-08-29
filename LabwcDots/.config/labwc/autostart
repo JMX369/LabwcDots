@@ -1,0 +1,21 @@
+if [ -z "$DBUS_SESSION_BUS_ADDRESS" ]; then
+    eval $(dbus-launch --sh-syntax --exit-with-session)
+fi
+
+kanshi >/dev/null 2>&1 &
+
+# D-Bus
+export XDG_CURRENT_DESKTOP=labwc
+export WAYLAND_DISPLAY=wayland-0
+dbus-update-activation-environment --all
+
+noctalia &
+
+# PipeWire
+pipewire &
+
+# Portals
+/usr/libexec/xdg-desktop-portal-wlr &
+/usr/libexec/xdg-desktop-portal &
+
+/usr/bin/rice_set &

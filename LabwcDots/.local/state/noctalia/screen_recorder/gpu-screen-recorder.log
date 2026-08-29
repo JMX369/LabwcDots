@@ -1,0 +1,8 @@
+=== gpu-screen-recorder recording 2026-08-18 12:25:48 ===
+gsr info: option '-w portal' was used without '-restore-portal-session yes'. The previous screencast session will be ignored
+gsr info: gsr_capture_portal_setup_dbus: CreateSession
+gsr info: gsr_capture_portal_setup_dbus: SelectSources
+gsr warning: gsr_dbus_screencast_select_sources: cursor mode metadata is not available, using cursor mode embedded instead
+gsr error: gsr_capture_portal_setup_dbus: SelectSources failed
+gsr error: gsr_capture_portal_setup: desktop portal capture failed. It seems like desktop portal capture was canceled by the user.
+gsr error: gsr_capture_start failed
