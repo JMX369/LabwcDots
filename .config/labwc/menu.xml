@@ -1,0 +1,3 @@
+<openbox_menu>
+  <menu id="root-menu" label="" execute=".config/labwc/menu.sh"/>
+</openbox_menu>
