@@ -18,15 +18,3 @@ bindings = [
   { key = "C", mods = "Control|Shift", action = "Copy" },
   { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" }
 ]
-
-[font.normal]
-family = "Noto Serif"
-
-[font.bold]
-family = "Noto Serif"
-
-[font.italic]
-family = "Noto Serif"
-
-[font.bold_italic]
-family = "Noto Serif"
