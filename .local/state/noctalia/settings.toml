@@ -17,6 +17,7 @@ order = [ "default" ]
         "tray",
         "notifications",
         "Updater",
+        "recorder",
         "clipboard",
         "network",
         "bluetooth",
@@ -27,7 +28,7 @@ order = [ "default" ]
         "control-center",
         "session"
     ]
-    font_weight = 400
+    font_scale = 1.0999999828636646
     margin_ends = 0
     padding = 16
     position = "bottom"
@@ -198,11 +199,11 @@ background_opacity = 0.99999997764825821
 directory = ""
 
 [plugins]
-enabled = [ "noctalia/translator", "noctalia/wallhaven" ]
+enabled = [ "noctalia/translator", "noctalia/wallhaven", "noctalia/screen_recorder" ]
 
 [shell]
 corner_radius_scale = 0.0
-font_family = "Noto Serif"
+font_family = "CozetteVector"
 password_style = "random"
 polkit_agent = true
 
@@ -268,6 +269,9 @@ hide_when_no_media = true
 
 [widget.network]
 show_label = false
+
+[widget.recorder]
+type = "noctalia/screen_recorder:recorder"
 
 [widget.spacer_2]
 type = "spacer"

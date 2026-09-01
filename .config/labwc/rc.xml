@@ -4,13 +4,12 @@
   <!-- Themes -->
 
   <core>
-    <gap>10</gap>
+    <gap>16</gap>
     <decoration>server</decoration>
     <adaptiveSync>yes</adaptiveSync>
     <reuseOutputMode>yes</reuseOutputMode>
   </core>
   <theme>
-    <name>noctalia</name>
     <cornerRadius>0</cornerRadius>
     <resistance>
       <screenEdgeStrength>20</screenEdgeStrength>
@@ -19,7 +18,39 @@
     <maximizedDecoration>none</maximizedDecoration>
     <dropShadows>yes</dropShadows>
     <dropShadowsOnTiled>yes</dropShadowsOnTiled>
+    
+    <font place="ActiveWindow">
+      <name>CozetteVector</name>
+      <size>11</size>
+      <slant>normal</slant>
+      <weight>normal</weight>
+    </font>
+    <font place="InactiveWindow">
+      <name>CozetteVector</name>
+      <size>11</size>
+      <slant>normal</slant>
+      <weight>normal</weight>
+    </font>
+    <font place="MenuHeader">
+      <name>CozetteVector</name>
+      <size>11</size>
+      <slant>normal</slant>
+      <weight>normal</weight>
+    </font>
+    <font place="MenuItem">
+      <name>CozetteVector</name>
+      <size>11</size>
+      <slant>normal</slant>
+      <weight>normal</weight>
+    </font>
+    <font place="OnScreenDisplay">
+      <name>CozetteVector</name>
+      <size>11</size>
+      <slant>normal</slant>
+      <weight>normal</weight>
+    </font>
   </theme>
+
   
   
   <!-- Thumbnail-based window switcher -->
@@ -46,7 +77,7 @@
       <action name="Execute" command="labwc -r"/>
     </keybind>
     <keybind key="W-x">
-      <action name="Execute"> <command>noctalia msg panel-toggle session</command>
+      <action name="Execute" command="noctalia msg panel-toggle session"/>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute" command="pamixer -d 5"/>
