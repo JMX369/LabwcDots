@@ -189,12 +189,6 @@ widget_order = [
         show_unlock_hint = true
         show_weather = true
 
-[notification]
-background_opacity = 0.99999997764825821
-
-[osd]
-background_opacity = 0.99999997764825821
-
 [plugin_settings."noctalia/screen_recorder"]
 directory = ""
 
@@ -206,6 +200,10 @@ corner_radius_scale = 0.0
 font_family = "CozetteVector"
 password_style = "random"
 polkit_agent = true
+settings_show_advanced = false
+
+    [shell.animation]
+    speed = 0.70000001043081284
 
     [shell.greeter_sync]
     auto_sync = true
@@ -232,7 +230,7 @@ source = "wallpaper"
 wallpaper_scheme = "m3-tonal-spot"
 
     [theme.templates]
-    builtin_ids = [ "alacritty", "btop", "cava", "foot", "gtk3", "gtk4", "kitty", "labwc", "qt" ]
+    builtin_ids = [ "btop", "cava", "foot", "gtk3", "gtk4", "labwc", "qt" ]
     community_ids = [ "discord" ]
 
 [wallpaper]
