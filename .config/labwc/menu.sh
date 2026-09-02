@@ -9,7 +9,7 @@ printf '%b\n' '
 
   <separator />'
 
-labwc-menu-generator -I -b -n -t alacritty
+labwc-menu-generator -I -b -n -t foot
 
 printf '%b\n' '
   <separator />

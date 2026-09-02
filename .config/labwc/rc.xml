@@ -10,6 +10,7 @@
     <reuseOutputMode>yes</reuseOutputMode>
   </core>
   <theme>
+    <name>noctalia</name>
     <cornerRadius>0</cornerRadius>
     <resistance>
       <screenEdgeStrength>20</screenEdgeStrength>
@@ -65,10 +66,10 @@
    <!-- KeyBinds -->
    
     <keybind key="W-t">
-      <action name="Execute" command="alacritty"/>
+      <action name="Execute" command="foot"/>
     </keybind>
     <keybind key="W-e">
-      <action name="Execute" command="pcmanfm"/>
+      <action name="Execute" command="caja"/>
     </keybind>
     <keybind key="W-b">
       <action name="Execute" command="waterfox"/>
