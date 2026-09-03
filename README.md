@@ -3,14 +3,12 @@ A LabWC build designed for Void and Neko Void, intended to be lightweight, modul
 
 
 # Screenshot
-<img width="1823" height="1022" alt="screenshot_20260828_230202-region" src="https://github.com/user-attachments/assets/fb9117cb-e608-416b-869a-8abe04a97d9d" />
-
-<img width="1823" height="1023" alt="imagen" src="https://github.com/user-attachments/assets/ae2a75db-2bcd-4033-a25d-592c06d15629" />
+<img width="1823" height="1023" alt="screenshot_20260902_155018-region" src="https://github.com/user-attachments/assets/8dda2305-e69f-4ebf-a37a-8bc5de10c71b" />
 
 # Deps
 
 ```
-alacritty
+foot
 adw-theme or similar
 dbus
 kanshi
@@ -18,9 +16,9 @@ labwc
 labwc-tweaks
 labwc-menu-generator
 noctalia V5 or >
-noto serif
+cozette
 pamixer
-pcmanfm
+caja (mate)
 xdg-desktop-portal-wlr
 xwayland-satellite
 ```
@@ -28,9 +26,9 @@ xwayland-satellite
 
 | Keys | Action |
 |:-|:-|
-|<kbd>super</kbd> + <kbd>T</kbd>| Alacritty
+|<kbd>super</kbd> + <kbd>T</kbd>| Terminal
 |<kbd>Super</kbd> + <kbd>B</kbd> | Browser
-|<kbd>Super</kbd> + <kbd>E</kbd> | Pcmanfm
+|<kbd>Super</kbd> + <kbd>E</kbd> | Caja
 |<kbd>Super</kbd> + <kbd>R</kbd> | Reconfigure
 |<kbd>Super</kbd> + <kbd>X</kbd> | Session Panel
 |<kbd>Super</kbd> + <kbd>D</kbd> | Show desktop
